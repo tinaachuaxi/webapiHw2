@@ -96,7 +96,7 @@ namespace webapi_hw1.Controllers
             return new ObjectResult(item);
         }
 
-        //Get Custom Object
+        //Get Custom Obj
         //https://localhost:<#port>/api/clientaccount/CustomObject/AccountID/{accountID}/ClientID/{clientID}
         //example: https://localhost:<#port>/api/clientaccount/CustomObject/AccountID/1/ClientID/2
         [HttpPost("CustomObject/AccountID/{accountID}/ClientID/{clientID}")]
